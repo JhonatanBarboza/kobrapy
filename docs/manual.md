@@ -1,57 +1,58 @@
+KobraPy Manual
+==============================
 
- KobraPy Manual
- ==============================
+KobraPy is a programming exercise inspired by the classic 1980s snake game.
 
- KobraPy is intended as programming exercise.
+Implemented in Python, it provides a minimal yet functional codebase designed
+for progressive extension by learners. KobraPy was originally conceived as an
+instructional resource to introduce undergraduate computer science students to
+open-source development practices and project management methodologies. Beyond
+this original scope, the project may also serve as a complementary resource
+within formal training programs or as a framework for independent study.
 
- It consists in a very simple version of the classical 80s' arcade snake game
- written in Python, that is provided as an initial codebase  that should be 
- further extended by the learner. It was originally created as an educational
- resource to teach open-source development practices, tools and project
- management methodologies to graduate computer sciences students.
+KobraPy is free software and may be distributed under the GNU General Public
+License version 3 or any later version.
 
- KobraPy is free software and can be distributed under the GNU General Public
- License vr.3 or any later version.
+Requirements
+------------------------------
 
- Requirements
- ------------------------------
+* Python 3
+* Pygame engine (https://www.pygame.org)
 
- * Python 3
- * Pygame engine (https://www.pygame.org)
+The Game
+------------------------------
 
- The Game
- ------------------------------
+The game takes place in a rectangular arena where a snake continuously moves in
+one of four orthogonal directions: left, right, up, or down; it never stops. The
+challenge is to steer the snake using the keyboard to help it eat apples that
+appear in random positions. Once consumed, apples disappear and respawn
+elsewhere.
 
- The game takes place on a rectangular arena where a snake continuously
- move in one of the four orthogonal directions: left, right, up and down;
- it never  stops. The challenge consists in steering the snake using the game
- controls to help it eat apples that are placed in random positions. Once
- consumed, apples appear elsewhere.
+Be careful! The arena borders are electrified and will kill the snake if
+touched. Moreover, the snake is poisonous to itself—it dies if its head crosses
+its own tail.
 
- Be careful, though. The arena borders are electrified and would kill the snake
- if touched. Moreover, mind that the snake is poisonous and it will also die if 
- it accidentally bites itself, i.e. if the snake's head crosses its own tail.
+The score is the number of apples eaten before the snake dies and the game ends.
+The goal is to collect as many apples as possible.
 
- The game score is the count of apples eaten until the game is over, and thus
- one should collect as many as possible.
+But there’s a catch: the snake lengthens each time it eats an apple.
 
- But there's a catch: the snake lengthens each time it eats an apple.
- 
- CONTROLS
+Controls
+------------------------------
 
- * `arrow keys`:  move the snake up, down, left, right
- * `Q / q     `:  quits the game at any instant
+  * `arrow keys`: move the snake up, down, left, right
+  * `Q / q`: quit the game at any time
 
- When the game ends, press any key to restart or 'q' to quit.
+When the game ends, press any key to restart or 'q' to quit.
 
- Contributing to KobraPy
- ------------------------------
+Programming Exercise
+------------------------------
 
- The official repository of KhobraPy is https://github.com/monacofj/khobrapy.
+To get started with the project:
 
- If you're willing to contribute to this project, suggestions are more than
- welcome.  Important information for contributing code can be found in the
- file `docs/CONTRIBUTING.md`. 
+a) Try the game yourself
 
- Otherwise, if you're exploring KhobraPy as a programming exercise, please
- refer to the file `docs/exercise-directions.md`.
+   * Linux/MacOS: `./kobra.py`
+   * Windows: `python kobra.py`
+
+b) Read the directions for the exercise in `docs/exercise.md`

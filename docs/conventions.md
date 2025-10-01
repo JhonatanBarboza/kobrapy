@@ -1,15 +1,13 @@
+Contributing to <Name> ==============================
 
-Contributing to KobraPy
-==============================
-
-KobraPy is open source, and you are welcome and encouraged to contribute.
+<Name> is open source, and you are welcome and encouraged to contribute.
 
 The following guidelines outline how to get started.
 
 Contribution Workflow
 ------------------------------
 
-The official KobraPy repository is at https://github.com/monacofj/kobrapy.
+The official <Name> repository is at https://github.com/<proj_repo>
 
 Before contributing, make sure you have read the essential documentation:
 
@@ -25,7 +23,7 @@ to address.
    contribution procedure:
 
 * fork the project on GitHub * create a branch for the issue * make your changes
-in that branch * create a pull request for KobraPy
+in that branch * create a pull request for <Name>
 
 Do not submit a PR/MR unrelated to an open issue. Ensure your contribution
 complies with the project’s conventions (see below).
@@ -35,16 +33,11 @@ complies with the project’s conventions (see below).
 Project Standards
 ------------------------------
 
-To keep things consistent, we adopt conventions commonly used in
-open source projects:
-
-* Semantic Versioning 2.0.0 [3]
-
-The programming exercise includes conforming the project to
+To keep things consistent, we adopt conventions commonly used in open source projects:
 
 - REUSE specification v3 [1]
 - GitFlow branching strategy [2]
-
+- Semantic Versioning 2.0.0 [3]
 
 Code of Conduct
 ------------------------------
@@ -52,11 +45,13 @@ Code of Conduct
 The success of an open collaborative project relies not only on technical
 contributions, but also on a healthy and respectful community. Ethics and mutual
 respect are values worth upholding in their own right, as the foundation for
-harmonious coexistence. As a general principle, we invite everyone to maintain
-a considerate attitude toward the diversity of opinions, identities, backgrounds,
-and cultures.
+harmonious coexistence.
 
-The programming exercise includes writing a `CODE_OF_CONDUCT.md` file.
+As a general principle, we invite everyone to maintain a considerate attitude
+toward the diversity of opinions, identities, backgrounds, and cultures.
+
+To embody these values in practice, we have outlined conduct rules in
+`docs/CODE_OF_CONDUCT.md`.
 
 Coding Conventions
 ------------------------------
@@ -77,13 +72,12 @@ your name added to the copyright notice [1] and to the `AUTHORS` file, if you
 wish.
 
 By submitting your contribution, you agree it will be available under the same
-license as KobraPy (GNU GPL v3 or later).
+license as <Name> (GNU GPL v3 or later).
 
 Branch Naming
 ------------------------------
 
-When applicable, use the following conventions for commit messages
-and branch names:
+When applicable, use the following conventions for commit messages and branch names:
 
 **Permanent Branches**
 
@@ -94,8 +88,7 @@ The repository contains two GitFlow permanent branches:
 
 **Support Branch Names (for PRs)**
 
-When creating a temporary branch, use the following keywords to indicate
-which branch your PR targets:
+When creating a temporary branch, use the following keywords to indicate which branch your PR targets:
 
 - `feat`: new feature or bug fix for the feature branch
 - `hot`: hot fix for the main branch
@@ -177,7 +170,8 @@ Compliance with Keep a Changelog [5] is under consideration.
 References
 ------------------------------
 
-[1] REUSE Software, https://reuse.software
-[3] Semantic Versioning, https://semver.org/
-[4] Conventional Commits, https://www.conventionalcommits.org/en/v1.0.0/
-[5] Keep a Changelog, https://keepachangelog.com/en/1.0.0/
+[1] REUSE Software, https://reuse.software [2] GitFlow,
+https://nvie.com/posts/a-successful-git-branching-model/ [3] Semantic
+Versioning, https://semver.org/ [4] Conventional Commits,
+https://www.conventionalcommits.org/en/v1.0.0/ [5] Keep a Changelog,
+https://keepachangelog.com/en/1.0.0/
